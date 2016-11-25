@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/down"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/down" />
+
+    <ImageButton
+        android:id="@+id/up"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/up" />
+
+    <Button
+        android:id="@+id/roleName"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:maxWidth="110dp"
+        android:minWidth="110dp"
+        android:text="roleName"
+        android:textSize="@dimen/sixteen" />
+
+    <Button
+        android:id="@+id/left"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:text="-"
+        android:textSize="@dimen/twentyfive" />
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="0"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/right"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:text="+"
+        android:textSize="@dimen/twentyfive" />
+
+    <CheckBox
+        android:id="@+id/active"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Active" />
+    
+</LinearLayout>

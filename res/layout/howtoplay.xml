@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/b_creditsback" >
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout2"
+            android:layout_width="302dp"
+            android:layout_height="4370dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_credits"
+                android:layout_width="121dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:ems="10"
+                android:inputType="text|textImeMultiLine|textMultiLine"
+                android:text="Before the game starts the players choose which roles can be used in the upcoming game. \n\nThe game master can assign in which order the roles are to wake up by pressing the arrows on the left hand side of the screen. Roles can be modified by longpressing the role name and selecting modify. Roles can also be deleted this way if needed. By pressing modify you can select whether the role is good or evil and edit the role name. \n\nThe class can also be assigned to wake up the first night only if the role only has to be noted by the game master. The players with a certain role can also be woken up individually if the role is not allowed to know its team mates.\n\n 
+By pressing the play button the game play interface will appear. The game master can add players and write the names of them. If he by mistake adds too many players he can remove players by longpressing the name field and selecting delete. \n\nThe game master should not choose roles until the game has started. By pressing the ”Start game” button you can start the night cycle and a list will appear, which will help the game master go through the different roles that are to wake up in the night. The game master can then note who has which role. \n\nTo kill a player the game master must now (just like when a player had to be deleted) longpress the player&apos;s name to kill him. A player can also be revived after being killed by this procedure. \n\nIf the game master presses the restart button the game will set all players to villagers but it will not remove the names." >
+
+                <requestFocus />
+            </TextView>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/b_creditsback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Back" />
+
+</RelativeLayout>

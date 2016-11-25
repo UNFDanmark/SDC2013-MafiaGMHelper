@@ -1,0 +1,9 @@
+
+syntax: regexp
+^gen$
+syntax: regexp
+^gen$
+syntax: regexp
+^bin$
+syntax: glob
+.classpath

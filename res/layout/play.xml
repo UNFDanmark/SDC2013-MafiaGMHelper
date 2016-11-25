@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/t_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="0dp"
+        android:text="Mafia"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="32sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center|fill|right|start"
+        android:orientation="horizontal" >
+
+        <StackView
+            android:id="@+id/stackView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+        </StackView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    Name                               Role         Add note" />
+
+    <ListView
+        android:id="@+id/playerList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/b_playback"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_weight="2.14"
+            android:maxWidth="51dp"
+            android:minWidth="51dp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            android:text="Back"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/b_right"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="2.34"
+            android:maxWidth="90dp"
+            android:minWidth="90dp"
+            android:text="right"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/b_creditsback"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_weight="2.28"
+            android:maxWidth="51dp"
+            android:minWidth="51dp"
+            android:text="left"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/personName"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="-3dp"
+        android:maxHeight="48dp"
+        android:maxLines="1"
+        android:maxWidth="85dp"
+        android:minWidth="84dp"
+                android:background="#00FFFFFF"
+        android:text="TextView" />
+
+    <ImageButton
+        android:id="@+id/ib_good"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:src="@drawable/thumpupscaled"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/personClass"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginRight="-3dp"
+        android:layout_weight="1"
+        android:maxHeight="48dp"
+        android:maxLines="1"
+        android:maxWidth="90dp"
+        android:minHeight="48dp"
+        android:minWidth="90dp"
+        android:background="#00FFFFFF"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/personNotes"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="-3dp"
+        android:maxHeight="96dp"
+                android:background="#00FFFFFF"
+        android:text="TextView" />
+
+</LinearLayout>
